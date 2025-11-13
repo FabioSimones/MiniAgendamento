@@ -3,8 +3,8 @@ services:
   db:
     image: postgres
     environment:
-      POSTGRES_DB: agenda
-      POSTGRES_USER: agenda
-      POSTGRES_PASSWORD: agenda
+      POSTGRES_DB: agendamento
+      POSTGRES_USER: agendamento
+      POSTGRES_PASSWORD: agendamento
     ports:
       - "5432:5432"
